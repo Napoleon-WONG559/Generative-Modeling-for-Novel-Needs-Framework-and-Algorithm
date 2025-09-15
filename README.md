@@ -3,6 +3,24 @@ This repository serves as a record for the research work on the topic of novel n
 
 ## File Description
 
+### Under *"./code"*
+The files under directory *"./code"* are python code files for the generation of scene texts and intention texts which are parts of the needs text.
+
+There are two sub-directories under *"./code"* and they are *"./code/basic_generation"* and *"./code/generation_with_additional_info"*. The former one is the first attempt of **unsupervised novel needs data synthesis algorithm** and the latter one is the updated **unsupervised novel needs data synthesis algorithm** with additional customer information.
+
+### Under *"./doc"*
+*"./doc/Framework_algorithm.pdf"* is the document of our framework and algorithm. It defines the basic concepts involved in the task of novel needs generation, including needs and novelty.
+
+*"./doc/modeling_idea.docx"* records the idea of modeling the novel needs generation as a sampling process based on statistical inference.
+
+### Under *"./literature review"*
+The files under directory *"./literature review"* are the summary documents of literature review on the topics of **controllable text generation** and **pun generation**.
+
+### Under *"./result"*
+*"./result/auto_generation_sample.docx"* is the result of first attempt of **unsupervised novel needs data synthesis algorithm**.
+
+*"./result/auto_generation_extraInfo_customer.docx"* is the result of the updated **unsupervised novel needs data synthesis algorithm** with additional customer information.
+
 ## Progress Record
 
 **2025.9** To validate our hypothesis, we added the customer information as the additional information to guide diversified generation for different products. The derived results show that we can achieve the diversity of generated texts across different products with additional product-specific information.

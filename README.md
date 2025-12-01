@@ -38,3 +38,9 @@ The files under directory *"./literature review"* are the summary documents of l
 **2025.7** We conducted literature review on the topics of **controllable text generation** and **pun generation**. According to the review of **pun generation**, we found the potential of unsupervised generation via sampling in generating novel needs.
 
 **2025.7** Project for **novel needs generation** started.
+
+**2025.11** We review this framework and decide to extend this framework with AI(ChatGPT) to achieve a better framework or algorithm.
+
+**2025.11** After discussion with AI, we extend the original framework to a 5-tuple framework for needs where the 5-tuple refer to a tuple of (product, intention, scene, user persona, needs type). We include another two element of (user persona, needs type) to encourage diversity of generated needs.
+
+**2025.11** We implement the code framework for the 5-tuple needs generation and run a experiment to generate around 100 samples.

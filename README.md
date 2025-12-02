@@ -8,6 +8,8 @@ The files under directory *"./code"* are python code files for the generation of
 
 There are two sub-directories under *"./code"* and they are *"./code/basic_generation"* and *"./code/generation_with_additional_info"*. The former one is the first attempt of **unsupervised novel needs data synthesis algorithm** and the latter one is the updated **unsupervised novel needs data synthesis algorithm** with additional customer information.
 
+*"code/5tuple_needs_generation/5tuple_needs_gen_tocsv.py"* is the code implementation of the 5-tuple framework.
+
 ### Under *"./doc"*
 *"./doc/Framework_algorithm.pdf"* is the document of our framework and algorithm. It defines the basic concepts involved in the task of novel needs generation, including needs and novelty.
 
@@ -20,6 +22,8 @@ The files under directory *"./literature review"* are the summary documents of l
 *"./result/auto_generation_sample.docx"* is the result of first attempt of **unsupervised novel needs data synthesis algorithm**.
 
 *"./result/auto_generation_extraInfo_customer.docx"* is the result of the updated **unsupervised novel needs data synthesis algorithm** with additional customer information.
+
+*"result/5tuple_needs_generation/needs_generated_sample.csv"* is the generation result of the 5-tuple framework. This result include 100 samples. In this experiment, we adopt 25 user persona, 25 product and 5 needs types. We reveal that the generated needs display diversity along with the diversity of (user persona, product, needs type).
 
 ## Progress Record
 
@@ -43,4 +47,4 @@ The files under directory *"./literature review"* are the summary documents of l
 
 **2025.11** After discussion with AI, we extend the original framework to a 5-tuple framework for needs where the 5-tuple refer to a tuple of (product, intention, scene, user persona, needs type). We include another two element of (user persona, needs type) to encourage diversity of generated needs.
 
-**2025.11** We implement the code framework for the 5-tuple needs generation and run a experiment to generate around 100 samples.
+**2025.11** We implement the code framework for the 5-tuple needs generation and run a experiment to generate around 100 samples. In this experiment, we adopt 25 user persona, 25 product and 5 needs types. We reveal that the generated needs display diversity along with the diversity of (user persona, product, needs type).
